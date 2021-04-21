@@ -1,0 +1,107 @@
+/* 头部 */
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 107px;
+    width: 100%;
+    background-color: #fff;
+}
+/* 导航栏被选中时 */
+.nav-chosen {
+    color: #007fff !important;
+}
+/* 上半部分 */
+header .top-box {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* 居中的盒子 */
+header .top-box .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 100%;
+    width: 960px;
+}
+/* 上半部分的导航栏 */
+header .top-box .container .top-nav a{
+    position: relative;
+    left: -45px;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+header .top-box .container .top-nav a:hover {
+    color: #007fff;
+}
+/* 搜索框 */
+.search-input {
+    position: relative;
+    left: 95px;
+    border: 1px solid #e5e6e7;
+    padding: 6px 10px;
+    width: 168px;
+    box-shadow: none;
+    outline: none;
+    color: #666;
+    background-color: #f4f5f5;
+    border-radius: 3px;
+}
+/* 写文章按钮 */
+header .top-box .container .write-btn {
+    position: relative;
+    left: 55px;
+    padding: 7px 10px;
+    width: 60px;
+    color: #fff;
+    background-color: #007fff;
+    border-radius: 3px;
+}
+
+header .top-box .container .write-btn:hover {
+    cursor: pointer;
+    background-color: #0876e4;
+}
+/* 登录按钮 */ 
+header .top-box .container .login-btn {
+    font-size: 16px;
+    border: 1px solid #007fff;
+    padding: 4px 18px;
+    width: 35px;
+    color: #007fff;
+    border-radius: 3px;
+}
+
+header .top-box .container .login-btn:hover {
+    cursor: pointer;
+}
+/* 下半部分 */
+header .bot-box {
+    height: 46px;
+    width: 960px;
+}
+/* 居中的盒子 */
+header .bot-box .container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 14px;
+    height: 46px;
+    width: 960px;
+}
+/* 下半部分导航栏 */
+header .bot-box .bot-nav a{
+    padding-right: 25px;
+}
+
+header .bot-box .bot-nav a:hover {
+    color: #007fff;
+}

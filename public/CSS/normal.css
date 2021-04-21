@@ -1,0 +1,19 @@
+/* 清除网页内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 统一字体和背景颜色 */
+body {
+    font-size: 12px;
+    background-color: #f4f5f5;
+}
+/* 统一锚点标签样式 */
+a {
+    color: #71777c;
+    text-decoration: none;
+}
+/* 统一列表标签样式 */
+li {
+    list-style: none;
+}
